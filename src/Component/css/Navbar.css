@@ -1,5 +1,8 @@
 nav{
     display: flex;
+    background-color: rgb(255, 176, 176);
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .links ul{
@@ -8,4 +11,11 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links li:hover{
+    scale: 1.1;
 }
