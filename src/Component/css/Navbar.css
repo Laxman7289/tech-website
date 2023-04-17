@@ -1,10 +1,11 @@
 nav{
     display: flex;
-    background-color: rgb(206, 165, 165);
+    background-color: rgb(254, 253, 253);
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 400;
 }
-
 .links ul{
     list-style: none;
     display: flex;
@@ -13,9 +14,13 @@ nav{
     gap: 1rem;
 }
 .links a{
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
 .links li:hover{
     scale: 1.1;
+}
+nav a:hover{
+    color: aqua;
 }
