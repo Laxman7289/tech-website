@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function Common (props)  {
     return (
@@ -18,9 +18,9 @@ function Common (props)  {
                                         We are the team of talented developer making websites
                                     </h2>
                                     <div className='mt-3'>
-                                        <NavLink to={props.visit} className='btn-started'>
+                                        <Link to={props.visit} className='btn-started'>
                                             {props.btname}
-                                        </NavLink>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className='col-lg-6 order-1 order-lg-2 header-img'>

@@ -8,7 +8,7 @@ function Home() {
     <>
     <Common name='Grow your business with'
     imgsrc={Webimg}
-    visit='/Contact'
+    visit='/contact'
     btname='Get Started'
     />
     </>
