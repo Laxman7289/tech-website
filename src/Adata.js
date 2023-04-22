@@ -1,4 +1,3 @@
-import React from 'react'
 import Webimg from '../src/Webimg/img1.png'
 import software_development from '../src/Webimg/software_development.png'
 import web_Development from '../src/Webimg/web_Development.jpg'
@@ -14,7 +13,7 @@ const Adata=[
     {
         imgsrc:App_Development,
         title:'App Development'
-    },
+    }, 
     {
         imgsrc:Webimg,
         title:'Android Development'

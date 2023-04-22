@@ -40,12 +40,12 @@ function Contact () {
             <form onSubmit={formSubmit}>
               <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">Full Name</label>
-                <input type="text" maxLength={30} className="form-control" id="exampleFormControlInput1" name='fullname' value={data.fullname} onChange={InputEvent} placeholder="Enter your full name" />
+                <input type="text" required maxLength={30} className="form-control" id="exampleFormControlInput1" name='fullname' value={data.fullname} onChange={InputEvent} placeholder="Enter your full name" />
               </div>
             
               <div className="mb-3">
                 <label for="exampleFormControlInput2" className="form-label">Mobile</label>
-                <input type="text" maxLength={10}  className="form-control" id="exampleFormControlInput2"  name='phone' value={data.phone} onChange={InputEvent} placeholder="MobileNumber" />
+                <input type="text" required maxLength={10}  className="form-control" id="exampleFormControlInput2"  name='phone' value={data.phone} onChange={InputEvent} placeholder="MobileNumber" />
               </div>
               
               <div className="mb-3">
