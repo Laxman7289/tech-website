@@ -2,7 +2,9 @@
 
     margin: 0;
     padding: 0;
-    background: #fefcfc;
+}
+.nav-link{
+    color: rgb(244, 250, 243)!important;
 }
 
 .btn {
@@ -10,9 +12,8 @@
     height: 50px;
     border: none;
     outline: none;
-    color: #352b2b;
-    text-align: center;
-    background: #fef9f9;
+    text-align:center ;
+    background: #111;
     cursor: pointer;
     position: relative;
     z-index: 0;
